@@ -11,11 +11,11 @@ public class App {
     public static void main(String[] args) {
         Spark.get("/welcome"
         , (req, res) -> {
-        return "Hallo Justin, wie läufts? :)";
+        return "Hallo Gruppe B, wie läufts mit dem Lernjournal? :)";
         });
         Spark.get("/goodbye"
         , (req, res) -> {
-        return "Auf Wiedersehen!";
+        return "Auf Wiedersehen, weiterhin viel Erfolg im Kurs! :)";
         });
     }}
     
